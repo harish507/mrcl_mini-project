@@ -1,0 +1,6 @@
+applications:
+- name: mini-project-manifest-test
+  path: dist/mini-project.war
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  instances : 1
+  memory: 1G
